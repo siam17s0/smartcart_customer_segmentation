@@ -1,15 +1,14 @@
 # smartcart_customer_segmentation
-Built an unsupervised machine learning model to segment SmartCart customers using KMeans and Agglomerative Clustering, determining optimal clusters through Elbow Method and Silhouette Score.
+Built an unsupervised machine learning system to segment SmartCart customers based on purchasing behavior using clustering techniques.
 
 ## Project Overview
-This project applies unsupervised machine learning techniques to segment SmartCart customers based on purchasing behavior.
-Clustering algorithms such as K-Means and Agglomerative Clustering are used to discover hidden customer groups.
+This project leverages unsupervised learning to identify distinct customer groups, enabling data-driven marketing strategies and personalized recommendations
 
 ## Techniques Used
 1.Data Preprocessing
-2.Feature Scaling
-3.Elbow Method
-4.Silhouette Score
+2.Feature Scaling(Standardization)
+3.Elbow Method(Optimal K selection)
+4.Silhouette Score(Cluster validation)
 5.KMeans Clustering
 6.Agglomerative Clustering
 7.Data Visualization
@@ -24,17 +23,25 @@ Clustering algorithms such as K-Means and Agglomerative Clustering are used to d
 ## Workflow
 1.Data preprocessing
 2.Feature scaling
-3.Optimal K selection (Elbow + Silhouette)
-4.Apply clustering algorithms
-5.Visualize clusters
-6.Analyze customer segments
+3.Optimal cluster selection using Elbow & Silhouette methods
+4.Applied K-Means and Agglomerative clustering
+5.Visualized clusters 
+6.Interpreted customer segments
 
-## Results
-The model successfully segments customers into different groups based on purchasing patterns, helping businesses identify
+## Business Impact
+This model helps businesses:
+1.Understand customer purchasing patterns,
+2.Improve ad targeting (very relevant for ad-tech companies),
+3.Increase conversion rates through segmentation
 
-Here:
-      optimal clusters = Agglomerative clustering
-
+## Results & Insights
+1.Identified optimal number of clusters using evaluation metrics,
+2.Agglomerative Clustering produced more meaningful customer group separation,
+3.Segmented customers into distinct groups based on spending behavior,
+These segments can be used for:
+1.Targeted advertising,
+2.Personalized marketing campaigns,
+3.Customer retention strategies
 ## Visualization
 <img width="1134" height="627" alt="Screenshot 2026-03-06 220458" src="https://github.com/user-attachments/assets/9f58618e-7677-48d7-b266-3d07c7ec8d5f" />
 <img width="1008" height="631" alt="Screenshot 2026-03-06 220957" src="https://github.com/user-attachments/assets/4bbec5ab-becc-47a7-a1c6-d71c68fb50a3" />
